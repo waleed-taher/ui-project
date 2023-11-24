@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 2% 10%;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
@@ -7,13 +7,14 @@ body {
 
 .container {
   display: flex;
+  max-width: 1920px;
 }
 
 .contain {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 .col-container {
   display: flex;
@@ -22,8 +23,10 @@ body {
 
 .left-section-background {
   background-color: #b195d2;
-  min-height: 100vh;
-  max-height: 100vh;
+  min-height: 90vh;
+  max-height: 90vh;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   flex: 1;
   padding-left: 2rem; /* 32px */
   padding-right: 2rem; /* 32px */
@@ -42,7 +45,7 @@ body {
 .icon-text-container {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
 }
 
 .fa-box-color {
@@ -52,7 +55,7 @@ body {
 .ls-text-color {
   color: white;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .input-checkbox {
@@ -124,10 +127,12 @@ body {
 
 .right-section-background {
   background-color: white;
-  min-height: 100vh;
-  max-height: 100vh;
+  min-height: 90vh;
+  max-height: 90vh;
   flex: 3;
   overflow-y: auto;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .rs-container {
